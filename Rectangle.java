@@ -65,7 +65,7 @@ public class Rectangle { 							//建立物件類別Rectangle
 			 h1=input.nextDouble();
 			 
 			 
-			 System.out.println("請輸入第二個長方形的X座標:");	//設定使用者輸入第二個長方形
+			 System.out.println("請輸入第二個長方形的X座標:");		//設定使用者輸入第二個長方形
 			 x2=input.nextDouble();
 			System.out.println("請輸入第二個長方形的Y座標:");
 			 y2=input.nextDouble(); 
