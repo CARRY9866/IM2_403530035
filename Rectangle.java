@@ -21,7 +21,7 @@ public class Rectangle { 							//建立物件類別Rectangle
 			height = h;
 		}
 		
-		public void setwidth(double w){ 				//方法setwidth 宣告
+		public void setwidth(double w){ 			 	//方法setwidth 宣告
 			width = w;
 		}
 		
@@ -75,9 +75,9 @@ public class Rectangle { 							//建立物件類別Rectangle
 			 h2=input.nextDouble();
 			 
 			 Rectangle rectangle1 = new Rectangle();		 //new 一個Rectangle 物件 rectangle1	
-			 Rectangle rectangle2 = new Rectangle(); 		//new 一個Rectangle 物件 rectangle2
+			 Rectangle rectangle2 = new Rectangle(); 		 //new 一個Rectangle 物件 rectangle2
 			 
-			 rectangle1.setx(x1);					//rectangle1 的方法呼叫
+			 rectangle1.setx(x1);				  	 //rectangle1 的方法呼叫
 			 rectangle1.sety(y1);
 			 rectangle1.setwidth(w1);
 			 rectangle1.setheight(h1);
@@ -85,7 +85,7 @@ public class Rectangle { 							//建立物件類別Rectangle
 			 rectangle1.calculatePerimeter();
 			 rectangle1.printall();
 			 
-			 rectangle2.setx(x2);					//rectangle2 的方法呼叫
+			 rectangle2.setx(x2);				  	 //rectangle2 的方法呼叫
 			 rectangle2.sety(y2);
 			 rectangle2.setwidth(w2);
 			 rectangle2.setheight(h2);
