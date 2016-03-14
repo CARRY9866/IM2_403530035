@@ -21,7 +21,7 @@ public class Rectangle { 							//建立物件類別Rectangle
 			height = h;
 		}
 		
-		public void setwidth(double w){ 			 	//方法setwidth 宣告
+		public void setwidth(double w){ 			 		//方法setwidth 宣告
 			width = w;
 		}
 		
