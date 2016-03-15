@@ -15,7 +15,8 @@ public class Rectangle { // 建立物件類別Rectangle
 	double area;
 	double perimeter;
 
-	public Rectangle(double h, double w, double y1, double x1) {
+	public Rectangle(double h, double w, double y1, double x1) {// 建立Rectangle的建構式
+																// 同時設定參數四個double
 
 		height = h;
 		width = w;
