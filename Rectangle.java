@@ -1,3 +1,10 @@
+﻿/*
+ * [A]
+ * [TA's advise]
+ * 1.Good Job!
+ * 2.和作業要求的getWidth(),getHeight()正好相反, 此部分扣2分.
+ * */
+
 //403530035 資管二張楷睿
 import java.util.Scanner;
 
@@ -12,22 +19,24 @@ public class Rectangle { // 建立物件類別Rectangle
 	double width;
 	double x;
 	double y;
+
+	// area跟perimeter可以透過height與width產生, 是否還有成為類別的attributes的必要呢?
 	double area;
 	double perimeter;
 
+	// Rectangle(){this(-1,-1,-1,-1);}//補上這行會讓你程式更完整
+
+	// 為什麼你們都喜歡修飾建構子為public呢?
 	public Rectangle(double h, double w, double y1, double x1) {// 建立Rectangle的建構式
 																// 同時設定參數四個double
-
 		height = h;
 		width = w;
 		y = y1;
 		x = x1;
-
 	}
 
 	public void setWidth() { // 方法calculateArea() 宣告
 		area = height * width;
-
 	}
 
 	public void setHeight() { // 方法calculatePerimeter() 宣告
@@ -35,9 +44,8 @@ public class Rectangle { // 建立物件類別Rectangle
 	}
 
 	public String toString() { // 方法toString() 宣告
-		return "java.Rectangle[x=" + x + ",y=" + y + ",width=" + width
-				+ ",height=" + height + "]" + "\nArea = " + area + "\n"
-				+ "Perimeter = " + perimeter;
+		return "java.Rectangle[x=" + x + ",y=" + y + ",width=" + width + ",height=" + height + "]" + "\nArea = " + area
+				+ "\n" + "Perimeter = " + perimeter;
 
 	}
 
@@ -78,7 +86,5 @@ public class Rectangle { // 建立物件類別Rectangle
 
 		System.out.println(rectangle1.toString());
 		System.out.println(rectangle2.toString());// 輸出字串
-
 	}
-
 }
